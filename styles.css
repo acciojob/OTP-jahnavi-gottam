@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  text-align: center;
+  width: 500px;
+  max-width: 90%;
+}
+
+#verification_heading {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+
+#verification_subtext {
+  color: #777;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.code {
+  width: 50px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.code:focus {
+  outline: 2px solid #3498db;
+  border-color: #3498db;
+}
+
+.info {
+  color: #999;
+  font-size: 12px;
+}
